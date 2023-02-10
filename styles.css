@@ -1,0 +1,138 @@
+#carouselExampleIndicators {
+  margin: auto;
+  width: 75%;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 15px white;
+  font-size: 300%;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+ /* affect only the h2 with class="sub_homepage" */
+
+h2.sub_homepage {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: large;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 30px;
+}
+/* link are INLINE element by default, to center it I need to make it a display: block */
+#link_homepage {
+  text-align: center;
+}
+body {
+  background: url(https://cdn.pixabay.com/photo/2016/04/15/14/07/sunset-1331088_1280.jpg);
+  background-position: center top;
+}
+
+/* unvisited link */
+a:link {
+  color: #28DFA0;
+}
+
+/* visited link */
+a:visited {
+  color: #8B78E3;
+}
+
+/* mouse over link */
+a:hover {
+  color: #72F1F5;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+/* CSS for the PHOTO GALLERY */
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* FIN DU CSS FOR THE PHoTO GALERY*/
+
+
+#video {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+
+.box{
+  margin: 5%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.box_title{
+  margin: 0.5%;
+  background-color: #F3D953;
+  padding: 20px;
+  min-height: 20px;
+  border-radius: 10px;
+}
+
+.van {
+  max-width: 80%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-size: 12px
+}
+
+#sub_homepage {
+  margin: 5%;
+}
+
+/* to make embeded YT videos Responsive */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.centered {
+  text-align: center;
+}
